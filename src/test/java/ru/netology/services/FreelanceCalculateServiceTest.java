@@ -4,11 +4,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
-
 public class FreelanceCalculateServiceTest {
 
     @Test
-    void shouldCalculateForThreeMonths(){
+    void shouldCalculateForThreeMonths() {
         FreelanceCalculateService service = new FreelanceCalculateService();
 
         //готовим входные параметры
@@ -23,7 +22,7 @@ public class FreelanceCalculateServiceTest {
     }
 
     @Test
-    void shouldCalculateForTwoMonths(){
+    void shouldCalculateForTwoMonths() {
         FreelanceCalculateService service = new FreelanceCalculateService();
 
         int income = 100_000;
